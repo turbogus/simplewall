@@ -1,25 +1,7 @@
 --simplewall by turbogus
 
---siplewall_desert_sand_stone
-
-minetest.register_craft({
-	output = 'node "simplewall:desert_sandstone" 1',
-	recipe = {
-		{'node "default:desert_sand"', 'node "default:desert_sand"' },
-		{'node "default:desert_sand"', 'node "default:desert_sand"'},
-	}
-})
-
-minetest.register_node("simplewall:desert_sandstone", {
-	description = "desert sandstone",
-	tiles = {"simplewall_desert_sandstone.png"},
-	is_ground_content = true,
-	walkable = true,
-	pointable = true,
-	diggable = true,
-	groups = {cracky=3},
-	sounds = default.node_sound_stone_defaults(),
-})
+-- code licence gpl v2 ou superieur
+-- graphisme sous licence CC-BY-NC-SA
 
 --simplewall_bitume
 minetest.register_craft({
