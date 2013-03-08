@@ -5,11 +5,11 @@
 
 --simplewall_bitume
 minetest.register_craft({
-	output = 'node "simplewall:bitume" 49',
+	output = "simplewall:bitume 49",
 	recipe = {
-		{'node "default:dirt"'},
-		{'node "default:dirt"'},
-		{'node "default:gravel"'},
+		{"default:dirt"},
+		{"default:dirt"},
+		{"default:gravel"},
 	}
 })
 
@@ -26,10 +26,10 @@ minetest.register_node("simplewall:bitume", {
 
 --simplewall_blue
 minetest.register_craft({
-	output = 'node "simplewall:blue" 20',
+	output = "simplewall:blue 20",
 	recipe = {
-		{'node "dye:blue"'},
-		{'node "default:sandstone"'},
+		{"dye:blue"},
+		{"default:sandstone"},
 	}
 })
 
@@ -46,10 +46,10 @@ minetest.register_node("simplewall:blue", {
 
 --simplewall_green
 minetest.register_craft({
-	output = 'node "simplewall:green" 20',
+	output = "simplewall:green 20",
 	recipe = {
-		{'node "dye:green"'},
-		{'node "default:sandstone"'},
+		{"dye:green"},
+		{"default:sandstone"},
 	}
 })
 
@@ -66,10 +66,10 @@ minetest.register_node("simplewall:green", {
 
 --simplewall_red
 minetest.register_craft({
-	output = 'node "simplewall:red" 20',
+	output = "simplewall:red 20",
 	recipe = {
-		{'node "dye:red"'},
-		{'node "default:sandstone"'},
+		{"dye:red"},
+		{"default:sandstone"},
 	}
 })
 
@@ -86,10 +86,10 @@ minetest.register_node("simplewall:red", {
 
 --simplewall_violet
 minetest.register_craft({
-	output = 'node "simplewall:violet" 20',
+	output = "simplewall:violet 20",
 	recipe = {
-		{'node "dye:violet"'},
-		{'node "default:sandstone"'},
+		{"dye:violet"},
+		{"default:sandstone"},
 	}
 })
 
@@ -106,10 +106,10 @@ minetest.register_node("simplewall:violet", {
 
 --simplewall_white
 minetest.register_craft({
-	output = 'node "simplewall:white" 20',
+	output = "simplewall:white 20",
 	recipe = {
-		{'node "dye:white"'},
-		{'node "default:sandstone"'},
+		{"dye:white"},
+		{"default:sandstone"},
 	}
 })
 
@@ -126,10 +126,10 @@ minetest.register_node("simplewall:white", {
 
 --simplewall_yellow
 minetest.register_craft({
-	output = 'node "simplewall:yellow" 20',
+	output = "simplewall:yellow 20",
 	recipe = {
-		{'node "dye:yellow"'},
-		{'node "default:sandstone"'},
+		{"dye:yellow"},
+		{"default:sandstone"},
 	}
 })
 
@@ -146,10 +146,10 @@ minetest.register_node("simplewall:yellow", {
 
 --simplewall_orange
 minetest.register_craft({
-	output = 'node "simplewall:orange" 20',
+	output = "simplewall:orange 20",
 	recipe = {
-		{'node "dye:orange"'},
-		{'node "default:sandstone"'},
+		{"dye:orange"},
+		{"default:sandstone"},
 	}
 })
 
