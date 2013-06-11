@@ -5,18 +5,18 @@
 
 --simplewall_bitume
 minetest.register_craft({
-	output = 'node "simplewall:bitume" 49',
+	output = 'node "simplewall:black" 20',
 	recipe = {
-		{'node "default:dirt"'},
-		{'node "default:dirt"'},
-		{'node "default:gravel"'},
+		{''},
+		{'node "dye:black"'},
+		{'node "default:sandstone"'},
 	}
 })
 
-minetest.register_node("simplewall:bitume", {
-	description = "bloc de bitume",
-	tiles = {"simplewall_bitume.png"},
-	is_ground_content = true,
+minetest.register_node("simplewall:black", {
+	description = "bloc noir",
+	tiles = {"simplewall_black.png"},
+	is_ground_content = false,
 	walkable = true,
 	pointable = true,
 	diggable = true,
@@ -36,7 +36,7 @@ minetest.register_craft({
 minetest.register_node("simplewall:blue", {
 	description = "bloc bleu",
 	tiles = {"simplewall_blue.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	walkable = true,
 	pointable = true,
 	diggable = true,
@@ -56,7 +56,7 @@ minetest.register_craft({
 minetest.register_node("simplewall:green", {
 	description = "bloc vert",
 	tiles = {"simplewall_green.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	walkable = true,
 	pointable = true,
 	diggable = true,
@@ -76,7 +76,7 @@ minetest.register_craft({
 minetest.register_node("simplewall:red", {
 	description = "bloc rouge",
 	tiles = {"simplewall_red.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	walkable = true,
 	pointable = true,
 	diggable = true,
@@ -96,7 +96,7 @@ minetest.register_craft({
 minetest.register_node("simplewall:violet", {
 	description = "bloc violet",
 	tiles = {"simplewall_violet.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	walkable = true,
 	pointable = true,
 	diggable = true,
@@ -116,7 +116,7 @@ minetest.register_craft({
 minetest.register_node("simplewall:white", {
 	description = "bloc blanc",
 	tiles = {"simplewall_white.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	walkable = true,
 	pointable = true,
 	diggable = true,
@@ -136,7 +136,7 @@ minetest.register_craft({
 minetest.register_node("simplewall:yellow", {
 	description = "bloc jaune",
 	tiles = {"simplewall_yellow.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	walkable = true,
 	pointable = true,
 	diggable = true,
@@ -156,7 +156,7 @@ minetest.register_craft({
 minetest.register_node("simplewall:orange", {
 	description = "bloc orange",
 	tiles = {"simplewall_orange.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	walkable = true,
 	pointable = true,
 	diggable = true,
