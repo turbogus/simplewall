@@ -3,7 +3,7 @@
 -- code licence gpl v2 ou superieur
 -- graphisme sous licence CC-BY-NC-SA
 
---simplewall_bitume
+--[[simplewall_black
 minetest.register_craft({
 	output = 'node "simplewall:black" 20',
 	recipe = {
@@ -12,7 +12,7 @@ minetest.register_craft({
 		{'node "default:sandstone"'},
 	}
 })
-
+]]--
 minetest.register_node("simplewall:black", {
 	description = "bloc noir",
 	tiles = {"simplewall_black.png"},
@@ -24,7 +24,7 @@ minetest.register_node("simplewall:black", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
---simplewall_blue
+--[[simplewall_blue
 minetest.register_craft({
 	output = 'node "simplewall:blue" 20',
 	recipe = {
@@ -32,7 +32,7 @@ minetest.register_craft({
 		{'node "default:sandstone"'},
 	}
 })
-
+--]]
 minetest.register_node("simplewall:blue", {
 	description = "bloc bleu",
 	tiles = {"simplewall_blue.png"},
@@ -44,7 +44,7 @@ minetest.register_node("simplewall:blue", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
---simplewall_green
+--[[simplewall_green
 minetest.register_craft({
 	output = 'node "simplewall:green" 20',
 	recipe = {
@@ -52,7 +52,7 @@ minetest.register_craft({
 		{'node "default:sandstone"'},
 	}
 })
-
+]]--
 minetest.register_node("simplewall:green", {
 	description = "bloc vert",
 	tiles = {"simplewall_green.png"},
@@ -64,7 +64,7 @@ minetest.register_node("simplewall:green", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
---simplewall_red
+--[[simplewall_red
 minetest.register_craft({
 	output = 'node "simplewall:red" 20',
 	recipe = {
@@ -72,7 +72,7 @@ minetest.register_craft({
 		{'node "default:sandstone"'},
 	}
 })
-
+]]--
 minetest.register_node("simplewall:red", {
 	description = "bloc rouge",
 	tiles = {"simplewall_red.png"},
@@ -84,7 +84,7 @@ minetest.register_node("simplewall:red", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
---simplewall_violet
+--[[simplewall_violet
 minetest.register_craft({
 	output = 'node "simplewall:violet" 20',
 	recipe = {
@@ -92,7 +92,7 @@ minetest.register_craft({
 		{'node "default:sandstone"'},
 	}
 })
-
+]]--
 minetest.register_node("simplewall:violet", {
 	description = "bloc violet",
 	tiles = {"simplewall_violet.png"},
@@ -104,7 +104,7 @@ minetest.register_node("simplewall:violet", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
---simplewall_white
+--[[simplewall_white
 minetest.register_craft({
 	output = 'node "simplewall:white" 20',
 	recipe = {
@@ -112,7 +112,7 @@ minetest.register_craft({
 		{'node "default:sandstone"'},
 	}
 })
-
+]]--
 minetest.register_node("simplewall:white", {
 	description = "bloc blanc",
 	tiles = {"simplewall_white.png"},
@@ -124,7 +124,7 @@ minetest.register_node("simplewall:white", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
---simplewall_yellow
+--[[simplewall_yellow
 minetest.register_craft({
 	output = 'node "simplewall:yellow" 20',
 	recipe = {
@@ -132,7 +132,7 @@ minetest.register_craft({
 		{'node "default:sandstone"'},
 	}
 })
-
+]]--
 minetest.register_node("simplewall:yellow", {
 	description = "bloc jaune",
 	tiles = {"simplewall_yellow.png"},
@@ -144,7 +144,7 @@ minetest.register_node("simplewall:yellow", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
---simplewall_orange
+--[[simplewall_orange
 minetest.register_craft({
 	output = 'node "simplewall:orange" 20',
 	recipe = {
@@ -152,7 +152,7 @@ minetest.register_craft({
 		{'node "default:sandstone"'},
 	}
 })
-
+]]--
 minetest.register_node("simplewall:orange", {
 	description = "bloc orange",
 	tiles = {"simplewall_orange.png"},
